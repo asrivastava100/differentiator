@@ -1,6 +1,7 @@
 import numpy as np
 
 pol_degree = int(input("What is the highest degree of your polynomial:"))
+
 if pol_degree == 0:
     print("Nice try! The derivative of a constant(s) is zero!")
 
@@ -15,6 +16,7 @@ else:
         list_of_coeff.insert(i, h)
 
     list_of_power = []
+    
     for i in range(pol_degree + 1):
         list_of_power.append(i)
 
@@ -31,6 +33,7 @@ for i in range(pol_degree):
 
 k = len(temp_list)
 count = 1
+
 for j in temp_list:
     count+=1
     print(j,end=" ")
