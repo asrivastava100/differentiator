@@ -1,6 +1,6 @@
 # differentiator
 
-This python program can be used to differentiate an n-th degree polynomial. 
+This python program can be used to differentiate n-th degree polynomials. 
 
 The program makes use of the NumPy package which is available at https://pypi.org/project/numpy/ 
 
